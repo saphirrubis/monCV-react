@@ -1,0 +1,97 @@
+:root {
+  --clr-1: #06a565;
+  --clr-2: #5beefb;
+  --clr-3: #62baf0;
+  --clr-4: #47fdd0;
+  --clr-5: #baff42;
+  --clr-bla: #333;
+  --clr-wit: #ddd;
+  --minHeight: 96vh;
+  --spacing: 0.25em;
+  --radius: 2.5em;
+  --shadow: 2px 1px var(--clr-bla);
+}
+
+@font-face {
+  font-family: thegreat;
+  src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+  font-family: kalam;
+  src: url(../fonts/Kalam-Light.ttf);
+}
+
+@font-face {
+  font-family: Vibes;
+  src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 1em auto;
+  max-width: 1200px;
+  background-color: antiquewhite;
+  font-family: kalam, Georgia;
+  color: var(--clr-bla);
+
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-bla);
+  cursor: pointer;
+}
+
+a:visited {
+  color: var(--clr-bla);
+}
+
+.home,
+.knowledges,
+.portfolio,
+.contact {
+  display: flex;
+}
+
+@media screen and (max-width: 850px) {
+
+  .home,
+  .knowledges,
+  .portfolio,
+  .contact {
+    display: block;
+  }
+}
+
+.homeContent,
+.knowledgesContent,
+.portfolioContent,
+.contactContent {
+  margin-left: .4em;
+}
+
+@media screen and (max-width: 850px) {
+
+  .homeContent,
+  .knowledgesContent,
+  .portfolioContent,
+  .contactContent {
+    margin-left: 0 !important;
+  }
+}

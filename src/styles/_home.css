@@ -1,0 +1,84 @@
+.homeContent{
+                  background: linear-gradient(180deg, var(--clr-1) 10%, transparent 100%);
+                  min-height:var(--minHeight);
+                  width: 100%;
+                  border-radius: var(--radius);
+                  position: relative;
+                  overflow: hidden;
+}
+.homeContent::after{
+                  content: '';
+                  position: absolute;
+                  height: 100%;
+                  width: inherit;
+                  background: url('../media/zen3.png');
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  z-index: -1;
+                  filter: brightness(20%);   
+}
+.content{
+                  position: absolute;
+                  top: 15%;
+                  left: 15%;
+                  font-family: thegreat, 'Lucida Sans';     
+}
+.home h1{
+                  font-size: 4em;
+                  font-family: thegreat, 'Lucida Sans';
+                  color: var(--clr-3);
+                  text-transform: uppercase;
+                  text-shadow: 1px 3px 1px var(--clr-bla);
+}            
+.home h2{
+                  font-size: 2.4em;
+                  padding: 1.5em 0 7em;
+                  color: var(--clr-4);
+                  text-shadow: 1px 2px 1px var(--clr-bla);      
+}
+.pdf a {
+                  font-size: 1.5em;
+                  background: var(--clr-3);
+                  color: var(--clr-4);
+                  padding: 1em 2em;
+                  border-radius: var(--radius);
+                  box-shadow: 0 5px 1px var(--clr-4);
+                  transition: 0.2s ease;
+}
+                  .pdf a:hover{
+                    font-size: 2.5em;
+                  background: var(--clr-4);
+                  box-shadow: 0 6px 2px var(--clr-3);
+                  color: var(--clr-3);
+}
+@media screen and (max-width: 860px){
+                 .homeContent {
+   margin: 0 !important;
+   height: 100vh;
+ }
+ .home h1{
+  font-size: 3em !important;      
+}
+.home h2 {
+  font-size: 1.8em !important;
+}
+.pdf a {
+font-size: 1.2em;}
+.pdf a:hover{
+font-size: 1.2em;
+}
+}
+ @media screen and (max-width:580px){
+      .home h1{
+                  font-size: 2.5em !important;      
+      }
+      .home h2 {
+                  font-size: 1.5em !important;
+     }
+     .pdf a {
+      font-size: 1.2em;}
+     .pdf a:hover{
+        font-size: 1.2em;
+      }
+ }
