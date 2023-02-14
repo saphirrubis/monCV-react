@@ -23,7 +23,7 @@
 
 .radioDisplay li {
                   color: var(--clr-4);
-                  font-size: 1.1em;
+                  font-size: 1em;
                   text-transform: uppercase;
                   padding: 0 1em;
                   flex: 1;
@@ -43,7 +43,7 @@
                   visibility: visible;
                   position: absolute;
                   top: -4px;
-                  left: -12px;
+                  left: -11px;
                   height: .9em;
                   width: .9em;
                   border-radius: 50%;
@@ -57,7 +57,7 @@
                   visibility: visible;
                   position: absolute;
                   top: -4px;
-                  left: -12px;
+                  left: -11px;
                   height: .9em;
                   width: .9em;
                   border-radius: 50%;
@@ -237,9 +237,12 @@
                   .infosContent {
                                     width: 100% !important;
                   }
+                  .radioDisplay{
+                                    font-size: 0.7em;
+                  }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 530px) {
                   .radioDisplay {
                                     display: none !important;
                   }
