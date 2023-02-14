@@ -23,7 +23,7 @@
 
 .radioDisplay li {
                   color: var(--clr-4);
-                  font-size: 1em;
+                  font-size: .9em;
                   text-transform: uppercase;
                   padding: 0 1em;
                   flex: 1;
@@ -224,7 +224,7 @@
                   width: 200px;
 }
 
-@media (max-width: 650px) and (min-width: 521px) {
+@media (max-width: 650px) and (min-width: 530px) {
 
                  .project {
                                     width: 49% !important;
