@@ -112,7 +112,8 @@
                     "3"
                     "4"
                     "5"
-                    "6"; 
+                    "6"
+                    "7"; 
                     overflow-Y: none;    
  }
 .experience h3{
@@ -131,20 +132,23 @@
                   font-size: 1em;
                   padding: 0 1em;
  }
+ .experience .exp-0{
+  grid-area: 2;
+}
 .experience .exp-1{
-                  grid-area: 2;
+                  grid-area: 3;
  }
  .experience .exp-2{
-                  grid-area: 3;  
+                  grid-area: 4;  
  }
  .experience .exp-3{
-  grid-area: 4;
+  grid-area: 5;
 }
 .experience .exp-4{
-  grid-area: 5;  
+  grid-area: 6;  
 }
 .experience .exp-5{
-  grid-area: 6;  
+  grid-area: 7;  
 }
 
 .otherSkills {
