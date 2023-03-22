@@ -6,7 +6,7 @@ const Hobbies = () => {
       <h3>Intérêts</h3>
       <ul>
         <li >
-         Marche nordique
+         Sport
         </li>
 
         <li >
@@ -21,9 +21,6 @@ const Hobbies = () => {
         Jeux vidéos
         </li>
 
-        <li >
-         Lectures
-        </li>
       </ul>
     </div>
   );
