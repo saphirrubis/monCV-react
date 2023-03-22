@@ -144,12 +144,12 @@
  .experience .exp-3{
   grid-area: 5;
 }
-.experience .exp-4{
+/* .experience .exp-4{
   grid-area: 6;  
 }
 .experience .exp-5{
   grid-area: 7;  
-}
+} */
 
 .otherSkills {
                     grid-column: 2/3;

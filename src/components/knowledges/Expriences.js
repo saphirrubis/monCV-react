@@ -1,5 +1,4 @@
 import React from "react";
-import Languages from './Languages';
 
 const Expriences = () => {
   return (
