@@ -8,7 +8,7 @@ const Expriences = () => {
       <h5>15/03/2023 </h5>
       <p>
       Mise en situtation professionnelle de développeuse web, web mobile.
-      Création d’un site e-commerce Fullstack en les langages Symfony/React.
+      Création d’un site e-commerce Fullstack avec les langages Symfony/React.
       </p>
     </div> 
   
