@@ -25,7 +25,7 @@ const Expriences = () => {
       <h4>Projet personnel (en cours)</h4>
       <h5>05/02/2023</h5>
       <p>
-      J'ai améloire le front-end du site e-commerce fait sur WEBADOR d'une amie, pour le rendre plus dynamique et attractif pour l’utilisateur.
+      J'ai amélioré le front-end du site e-commerce fait sur WEBADOR d'une amie, pour le rendre plus dynamique et attractif pour l’utilisateur.
     </p>
    <h5>2023</h5>
       <p>
