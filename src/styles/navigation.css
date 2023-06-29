@@ -33,12 +33,13 @@
   border-radius: 50%;
   width: 100px;
   height: 150px;
-  box-shadow: 0 0 0 4px var(--clr-3), 0 0 0 8px var(--clr-4), 0 0 0 12px var(--clr-2);
+  padding: 5px;
+  background-color: var(--clr-5);
 }
 
 .sidebar h3 {
   font-size: 1.1em;
-  font-family: kalam,'Franklin Gothic Medium';
+  font-family: kalam, 'Franklin Gothic Medium';
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .1em;
@@ -94,7 +95,7 @@
   display: flex;
   width: 250px;
   padding: 0 10px;
-  justify-content:center;
+  justify-content: center;
 }
 
 .socialNetwork ul li {
@@ -104,7 +105,7 @@
   border-radius: 50%;
   padding: .5em 0.8em;
   transition: .3s;
-  margin-bottom:0.9em ;
+  margin-bottom: 0.9em;
   cursor: pointer;
   margin: 5px;
 }
@@ -112,6 +113,7 @@
 .socialNetwork a:visited {
   color: var(--clr-1);
 }
+
 .socialNetwork ul li:hover {
   background: var(--clr-2);
 }
@@ -163,15 +165,15 @@
 
 @media screen and (max-width:580px) {
   .sidebar ul {
-    justify-content:space-around;
+    justify-content: space-around;
   }
 
   .sidebar ul li {
-    padding: 1em 0 ;
+    padding: 1em 0;
   }
 
   .sidebar ul li i {
-    font-size: 1.4em ;
+    font-size: 1.4em;
     transform: translateY(-3px);
   }
 

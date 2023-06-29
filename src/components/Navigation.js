@@ -6,7 +6,7 @@ const Navigation = () => {
 <div className="sidebar">
     <div className="id">
       <div className="idContent">
-        <img src="./src/media/avatar.jpg" alt="mon avatar" />
+        <img src="./src/media/logo.png" alt="mon nouveau logo" />
         <h3>Dubus Tatiana</h3>
       </div>
     </div>

@@ -13,6 +13,7 @@ const Home = () => {
     <div className="pdf">
       <a href="./src/CV/monCV.pdf" target="_blank">Télécharger CV</a>
     </div>
+    
    </div>
   </div>
   </div>
