@@ -11,7 +11,7 @@ const Formation = () => {
   <li><i>2014</i></li>
   <li>2010</li>
   </ul>
-  <ul>
+  <ul className="font-f">
   <li><i>TP: Formation Développeuse Web, Web Mobile </i></li>
   <li>Découverte des métiers du numérique</li>
   <li><i>TP: Gestionnaire de paie</i></li>

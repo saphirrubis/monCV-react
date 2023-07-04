@@ -9,8 +9,9 @@ const Expriences = () => {
       <p>
       Contexte: Projet de site de Covoiturage <br/>
 Taches: Travailler en méthode agile<br/>
-        Développer une API back-end<br/>
-Environnement technique: Figma, Jira, Miro, Looping, Mysql, GIT, Symfony,React<br/>
+La partie contact (front et back),et la partie discussion (front et back)
+du site<br/>
+Environnement technique: Figma, Jira, Miro, Looping, Mysql, GIT, Symfony,React, Node.js, Express<br/>
       </p>
     </div> 
   
