@@ -6,21 +6,22 @@
   overflow: hidden;
   display: grid;
   grid-template-columns: 0.8fr 1fr 1fr;
-  grid-template-rows: 1fr 0.8fr 1fr;
+  grid-template-rows: 1fr 1fr 0.8fr;
   grid-template-areas:
-    " A B B"
+    " A B B "
     " C B B "
     " C D E ";
 
 }
 
+.languagesFrameworks,
 .experience,
 .otherSkills,
 .formation,
 .hobbies {
   background: var(--clr-1);
   border-radius: var(--radius);
-  padding: 1em;
+  padding: 2em;
 }
 
 .languagesFrameworks {
@@ -40,7 +41,7 @@
   grid-column: 1/2;
   grid-row: 1/2;
   grid-area: A;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   display: grid;
   font-family: Kalam, 'Lucida Sans';
   border-left: 2px solid var(--clr-2);
@@ -131,9 +132,9 @@
 }
 
 .otherSkills {
-  grid-column: 2/3;
+  grid-column: 1/2;
   grid-row: 2/4;
-  grid-area: D;
+  grid-area: C;
   margin-left: 0.4em;
 
 }
@@ -172,10 +173,11 @@
 }
 
 .formation {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  grid-area: C;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  grid-area: D;
   font-size: 1em;
+  margin-left: 0.5em;
 }
 
 .formation h3 {
