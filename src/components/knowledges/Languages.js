@@ -14,8 +14,6 @@ class Languages extends Component {
       { id:2, value:"Symfony"},
       { id:4, value:"Express"},
       { id:3, value:"Angular"},
-
-      
     ]
   }
   render() {
